@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.centro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main{
+  width: 100vw;
+  height: auto;
+}
+
+.header{
+  width: 100vw;
+  height: 5rem;
+}
+
+.navbar{
+  background-color: black !important;
+}
+
+#btn_loja_virtual{
+  background-color: white !important;
+}
+
+#btn_loja_virtual:hover{
+  background-color: slategrey !important;
+  color: white;
+}
+
+.capa{
+  display: flex;
+  width: 100vw;
+  min-height: 90vh;
+  padding: 0.25rem;
+  background-image: url("/img/fundo_site_3\ -\ Copia.jpg");
+  background-size: cover;
+}
+
+.frase_caixa{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.frase{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.quem_sou{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  min-height: 95vh;
+  background-color: white !important;
+}
+
+.quem_sou_descricao{
+  text-align: justify;
+  line-height: 2.5rem;
+}
+
+.foto img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.midias{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8rem;
+  color: white;
+}
+
+.logotipo{
+  width: 12rem;
+  display: flex;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+.palestras{
+  width: 45vw;
+  min-height: 40vh;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  background-color: white;
+  text-align: justify;
+}
+
+.box_blog_artigos{
+  text-align: justify;
+  width: 50vw;
+  min-height: 95vh;
+  line-height: 2rem;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+  .navbar-nav{
+    margin-left: 0;
+  }
+  .quem_sou,
+  .box_blog_artigos{
+    height: auto;
+    width: 98vw;
+  }
+  #btn_conhecer_autor{
+    margin: 0 auto !important;
+    width: 100% !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
