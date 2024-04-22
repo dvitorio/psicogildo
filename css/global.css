@@ -68,6 +68,7 @@
 }
 
 .quem_sou_descricao{
+  width: 50vw;
   text-align: justify;
   line-height: 2.5rem;
 }
@@ -110,6 +111,27 @@
   line-height: 2rem;
 }
 
+.blog_1,
+.artigos{
+  width: 50vw;
+  height: auto;
+}
+
+.formulario{
+  width: 100vw;
+  height: 80vh;
+  background-color: rgb(116, 193, 193);
+}
+
+.formulario_inner{
+  width: 50vw;
+}
+
+.rodape{
+  width: 100vw;
+  height: 10rem;
+}
+
 
 
 
@@ -118,13 +140,34 @@
     margin-left: 0;
   }
   .quem_sou,
-  .box_blog_artigos{
+  .quem_sou_descricao,
+  .box_blog_artigos,
+  .blog_1,
+  .artigos{
     height: auto;
-    width: 98vw;
+    width: 100vw;
+    padding: 1rem;
+    margin: 2rem auto !important;
   }
-  #btn_conhecer_autor{
+  #btn_conhecer_autor,
+  #btn_blog_1,
+  #btn_artigos,
+  #btn_enviar_formulario{
     margin: 0 auto !important;
     width: 100% !important;
+  }
+
+  .formulario{
+    width: 100vw !important;
+    margin: 0 auto !important;
+  }
+
+  .formulario_inner{
+    width: 100vw;
+  }
+
+  input{
+    margin: 1rem auto;
   }
 
 }
