@@ -26,10 +26,6 @@
   background-color: black !important;
 }
 
-#btn_loja_virtual{
-  background-color: white !important;
-}
-
 #btn_loja_virtual:hover{
   background-color: slategrey !important;
   color: white;
@@ -63,7 +59,7 @@
   align-items: center;
   justify-content: center;
   width: 50vw;
-  min-height: 95vh;
+  height: auto;
   background-color: white !important;
 }
 
@@ -107,24 +103,33 @@
 .box_blog_artigos{
   text-align: justify;
   width: 50vw;
-  min-height: 95vh;
+  height: auto;
   line-height: 2rem;
 }
 
 .blog_1,
 .artigos{
   width: 50vw;
-  min-height: 90vh;
+  height: auto;
 }
 
 .formulario{
   width: 100vw;
-  height: 100vh;
-  background-color: rgb(116, 193, 193);
+  height: 90vh;
+  background-image: url('/img/fundo_form.jpg');
 }
 
 .formulario_inner{
+  backdrop-filter: blur(20px) !important;
+  border: 0.25px solid grey !important;
   width: 50vw;
+  padding: 2rem !important;
+}
+
+#btn_enviar_formulario,
+#btn_saiba_mais_capa{
+  background-color: aquamarine !important;
+  color: darkblue !important;
 }
 
 .rodape{
